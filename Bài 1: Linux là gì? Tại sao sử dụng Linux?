@@ -1,0 +1,33 @@
+I.Tầm quan trọng
+  - Kiến thức quan trọng nhất mảng Devops
+  - Devops Engineer phải biết sử dụng
+II.Khái niệm
+  - Là hệ điều hành (Giống window, macOS)
+  - Có phiên bản không giao diện
+  - Không cần dùng chuột click cài đặt
+III.6 Ưu điểm khi sử dụng
+  1. Tối ưu Hiệu suất & Chi phí
+        - Phù hợp hầu hết phần cứng (Máy tính cá nhân đến máy chủ )
+        - Hiệu suất tốt hơn (Không xử lý tác vụ đồ họa)
+        - Giúp tiết kiệm chi phí tài nguyên lớn
+  2. Bảo mật & Ổn định
+        - Là hệ điều hành mã nguồn mở (Code công khai)
+        - Lỗi được khắc phục nhanh chóng (Cộng đồng lớn)
+        - Quản lý quyền truy cập mạnh mẽ
+        - Tính ổn định cao (Vòng đời tính bằng năm)
+        - Không tự động update làm chết hệ thống)
+  3. Kiểm soát & Linh hoạt
+        - Mã nguồn mở miễn phí
+        - Không bị hạn chế bởi Microsoft hay Apple
+        - Có thể tùy chỉnh mọi thứ
+        - Nhiều phiên bản lựa chọn (Ubuntu, Fedora, ...)
+  4. Phát triển & Cập nhật
+        - Phát triển rất mạnh
+        - Cộng đồng tự do sáng tạo
+        - Tạo điều kiện doanh nghiệp/tổ chức đóng góp
+  5. Tương thích đa nền tảng
+        - Tương thích về phần cứng, phần mềm, tiêu chuẩn chung
+        - Đảm bảo tính ổn định (ví dụ: Máy 4GB RAM)
+  6. Cộng đồng phát triển lớn
+        - Chủ yếu là người chuyên môn về công nghệ
+        - Phù hợp cho sự lựa chọn của doanh nghiệp
