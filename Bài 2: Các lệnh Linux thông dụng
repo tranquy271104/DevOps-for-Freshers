@@ -20,7 +20,7 @@ IV.Xem Nội Dung (ls,cat,tail)
           - Kết hợp tùy chọn (VD: ls-lta)
     2. cat (Xem toàn bộ nội dung file)
     3. tail (Xem file log/cuối file)
-          - tail -N: Xem N dòng cuối
+          - tail -n: Xem N dòng cuối -> ví dụ tail -n 3 linux.txt xem 3 dòng cuối của file linux.txt
           - tail -f: Xem dữ liệu Real Time
 V.Quản Lý File và Thư Mục
     1. Tạo mới
