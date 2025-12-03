@@ -1,0 +1,21 @@
+I.Cài đặt Vim
+  - cú pháp: apt install vim
+  - tùy chọn: thêm -y (cài đặt một mạch)
+  - yêu cầu: thêm sudo (nều dùng user thường)
+II.Cú pháp sử dụng cơ bản
+  - lệnh: vi cách tên file
+  - chức năng: Tạo file mới (nếu chưa tồn tại)
+  - chức năng: mở file đã có
+III.Các chế độ của vim
+  - command mode (chế độ lệnh)
+  - insert mode (chế độ chỉnh sửa)
+      + vào insert: nhấn phím i
+      + thoát (về command): nhấn phím esc
+IV.Phím tắt và lệnh
+  - xóa dòng: gõ dd (hai lần phím g)
+  - hoàn tác: phím u (giống ctrl z)
+  - copy: gõ yy (hai lần phím i)
+  - paste: phím p
+  - tìm kiếm văn bản: gõ phím /
+  - lưu và thoát: gõ :x
+  - thoát không lưu: gõ :q!
