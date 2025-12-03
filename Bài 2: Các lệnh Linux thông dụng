@@ -1,0 +1,52 @@
+I.Thông Tin Môi Trường
+    - pwd: Vị trí hiện tại
+    - whoami: User đăng nhập
+    - clear: xóa màn hình
+II.Hệ Thống File Linux
+    1. Thư mục cao nhất: /(root)
+    2. Các thư mục con chính
+          - BIN,BOOT,ROOT,DEV,ETC
+          - VAR (Log, Cache)
+III.Điều Hướng (cd)
+    - cd: di chuyển đến [thư mục]
+    - cd /: di chuyển đến thư mục root
+    - cd ..: lùi về 1 cấp thư mục (thư mục cha)
+    - cd: về vị trí home ban đầu
+IV.Xem Nội Dung (ls,cat,tail)
+    1. ls (Xem thư mục)
+          - ls -l: hiển thị danh sách
+          - ls -a: hiển thị file/thư mục ẩn
+          - ls -t: sấp xếp theo thời gian
+          - Kết hợp tùy chọn (VD: ls-lta)
+    2. cat (Xem toàn bộ nội dung file)
+    3. tail (Xem file log/cuối file)
+          - tail -N: Xem N dòng cuối
+          - tail -f: Xem dữ liệu Real Time
+V.Quản Lý File và Thư Mục
+    1. Tạo mới
+          - mkdir: Tạo tên thư mục
+          - mkdir -p: Tạo nhiều cấp thư mục
+          - touch: tạo file
+    2. Xóa (rm)
+          - rm: Xóa file
+          - rm -r: xóa thư mục 
+          - rm -rf: buộ xóa không hỏi 
+    3. Copy (cp)
+          - cp: đích file
+          - cp -r: sao chép thư mục 
+    4. Di chuyển/Đổi tên (mv)
+          - mv: đích nguồn
+          - Đổi tên và di chuyển
+          - Dấu . (Vị trí hiện tại)
+VI.Tương Tác Hệ Thống & Ghi Dữ Liệu
+    1. echo (In nội dung)
+          - Ghi đè file: > [file]
+          - Thêm dòng vào cuối: >> [file]
+    2. history (Xem lịch sử lệnh đã gõ
+    3. sudo (Thực hiện lệnh bằng root)
+          - Sử dụng khi gặp Permission Denied
+          - sudo -i (Chuyển sang user root)
+    4. Tiện ích 
+          - Phím tab (Tự động điền)
+          - Mũi tên lên/xuống (Chọn lệnh cũ)
+          - Ctrl + C (Thóa tiến trình)
