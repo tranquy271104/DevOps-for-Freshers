@@ -1,0 +1,30 @@
+I.Kiểm tra tài nguyên hệ thống
+    - free -M (kiểm tra trạng thái RAM)
+    - df -h (kiểm tra dung lượng đĩa còn trống)
+    - top (Xem hoạt động, giống task manager)
+II. Quản lý Hostname & Hệ thống
+    - Đổi hostname
+        + hostnamectl set-hostname [tên mới]
+        + yêu cầu quyền sudo
+        + áp dụng cấu hình: cần reboot
+    - khởi động lại server: sudo reboot
+    - chuyển sang tài khoản admin: sudo -i
+III.Quản lý tiến trình 
+    - ps -e (xem các tiến trình đang chạy
+    - Thoát tiến trình: Ctrl + C
+IV.Kiểm tra kết nối mạng
+    - ping 8.8.8.8 (kiểm tra kết nối internet)
+    - telnet [IP] [Port] (Kiểm tra thông kết nối server khác)
+    - netstat -tlpnu (Xem cổng & kết nối)
+        + -t: kết nối tcp
+        + -l: cổng đang mở/nghe
+        + -p: tiến trình liên quan
+        + -u: kết nối udp
+        + -n: hiển thị IP/port dạng số
+    - traceroute -t -p [Port][IP]
+        + Dùng khi telnet không hành động
+        + -t: TCP
+        + -p: Định nghĩa port
+V.Quản lý công cụ
+    - cài đặt công cụ (ví dụ:netstat, traceroute)
+    - xóa công cụ: apt remove [tên công cụ]
