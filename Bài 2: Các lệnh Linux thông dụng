@@ -32,8 +32,8 @@ V.Quản Lý File và Thư Mục
           - rm -r: xóa thư mục 
           - rm -rf: buộc xóa không hỏi 
     3. Copy (cp)
-          - cp: đích file
-          - cp -r: sao chép thư mục 
+          - cp: đích file -> ví dụ cp linux.txt /home/user/
+          - cp -r: sao chép thư mục -> ví dụ cp /home/tranquy/quydeptrai /home/tranquy/Desktop/
     4. Di chuyển/Đổi tên (mv)
           - mv: đích nguồn
           - Đổi tên và di chuyển
