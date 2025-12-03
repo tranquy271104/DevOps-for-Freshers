@@ -15,7 +15,7 @@ III.Quản lý tiến trình
 IV.Kiểm tra kết nối mạng
     - ping 8.8.8.8 (kiểm tra kết nối internet)
     - telnet [IP] [Port] (Kiểm tra thông kết nối server khác)
-    - netstat -tlpnu (Xem cổng & kết nối)
+    - netstat -tlpun (Xem cổng & kết nối)
         + -t: kết nối tcp
         + -l: cổng đang mở/nghe
         + -p: tiến trình liên quan
