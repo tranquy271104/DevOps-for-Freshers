@@ -1,0 +1,56 @@
+I.Người dùng và nhóm 
+    1. Tạo user
+        - useradd (chỉ tạo user)
+        - adduser (tạo group, thư mục, password -> cần quyền root
+    2. Quản lý user
+        - su <username> (chuyển user)
+        - xem thông tin: /etc/passwd
+        - xóa user: deluser <username>
+    3. Quản lý Group
+        - Tạo group: groupadd <groupname>
+        - xóa group: delgroup <groupname>
+        - thêm user vào group: usermod -aG <group> <user>
+        - kiểm tra group: group <username>
+        - xóa user khỏi group: deluser <user> <group>
+        - lưu ý: tạo user mới tự động tạo group tương ứng
+II.Quyền sở hữu
+    1.Nhận diện trong LS -L
+        - cột 1: chủ sở hữu 
+        - cột 2: nhóm sở hữu
+    2.Thay đổi quyền sở hữu 
+        - cú pháp: chown <owner>:<group> <file/dir>
+        - thay đổi đệ quy (-R)
+III.Phân quyền truy cập
+    1.Các quyền cơ bản
+        - read (r) - Đọc (4)
+        - write (w) - viết (2)
+        - execute (x) - thực thi (1)
+    2.Đối tượng tác động
+        - U:user (chủ sở hữu)
+        - G:group (nhóm sở hữu)
+        - O:order (người dùng khác)
+    3.Phương pháp phân quyền 
+        - phân quyền bằng ký tự (symbolic)
+              + cú pháp: chmod <U|G|O>+|-|=<r|W|x> <file>
+              + ví dụ: chmod g=rwx data
+        - phân quyền bằng số (octal)
+              + full quyền (rwx) = 7
+              + ví dụ: chmod 750 <file/dir>
+              + mẹo nhớ số
+                  x=1 (thực thi/enter)
+                  w=2 (viết/cầm bút)
+                  r=4 (đọc/cầm sách)
+    4.Quy tắc quan trọng
+        - cần quyền execute (x) để đọc nội dung thư mục
+IV.Phân tích dữ liệu LS -L
+    1.Cột quyền (10 ký tự)
+        - ký tự 1: Kiểu file (d/thư mục, -/file)  
+        - ký tự 2-4: quyền chủ sở hữu
+        - ký tự 5-7: quyền nhóm sở hữu
+        - ký tụ 8-10: quyền người dùng khác
+    2.Các cột thông tin khác
+        - chủ sở hữu
+        - nhóm sở hữu
+        - kích thước tệp
+        - thời gian chỉnh sửa
+        - tên tệp 
