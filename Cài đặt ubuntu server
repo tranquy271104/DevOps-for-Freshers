@@ -1,0 +1,17 @@
+I. Yêu cầu ban đầu & Mạng 
+      1. Lựa chọn Mạng
+            - Bridge (Khuyên dùng PC)
+                + Thiết bị khác kết nối trực tiếp
+                + Mô phỏng mạng nội bộ công ty 
+            - NAT (Khuyên dùng laptop)
+                + Chỉ truy cập từ thiết bị gốc
+                + Kiểm tra Gateway IP
+      2. Kích thước đĩa 
+            - Tối thiểu khuyến nghị: 20GB
+            - Tài nguyên ít: 10Gb hoặc 15GB
+      3. Bộ nhớ RAM
+            - Mặc định 4GB  
+            - Máy yếu: 2GB
+            - tính toán: 1024 * GB mong muốn 
+
+
