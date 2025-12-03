@@ -24,13 +24,13 @@ IV.Xem Nội Dung (ls,cat,tail)
           - tail -f: Xem dữ liệu Real Time
 V.Quản Lý File và Thư Mục
     1. Tạo mới
-          - mkdir: Tạo tên thư mục
+          - mkdir: Tạo tên thư mục -> chỉ tạo 1 thư mục 
           - mkdir -p: Tạo nhiều cấp thư mục
           - touch: tạo file
     2. Xóa (rm)
           - rm: Xóa file
           - rm -r: xóa thư mục 
-          - rm -rf: buộ xóa không hỏi 
+          - rm -rf: buộc xóa không hỏi 
     3. Copy (cp)
           - cp: đích file
           - cp -r: sao chép thư mục 
