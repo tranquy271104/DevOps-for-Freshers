@@ -12,7 +12,10 @@ III.Các chế độ của vim
       + vào insert: nhấn phím i
       + thoát (về command): nhấn phím esc
 IV.Phím tắt và lệnh
-  - xóa dòng: gõ dd (hai lần phím g)
+  - xóa dòng: gõ dd 
+  - trỏ về đầu file: gõ gg
+  - trỏ về cuối file: gõ G
+  - trỏ về đầu dòng hiện tại: gõ 0
   - hoàn tác: phím u (giống ctrl z)
   - copy: gõ yy (hai lần phím i)
   - paste: phím p
